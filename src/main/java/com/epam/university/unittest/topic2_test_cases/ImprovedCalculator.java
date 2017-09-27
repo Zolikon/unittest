@@ -4,7 +4,7 @@ public class ImprovedCalculator {
 
     public int inc(int a) {
         checkArgument(a);
-        return a++;
+        return a+1;
     }
 
     /**
