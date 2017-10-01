@@ -8,7 +8,7 @@ public class Calculator {
      * @return
      */
     public int inc(int a) {
-        return a++;
+        return a+1;
     }
 
 }

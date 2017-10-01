@@ -11,7 +11,7 @@ public class StringUtils {
         return a + b;
     }
 
-    public String randomString(int length, String base) {
+    public String addRandomString(int length, String base) {
         Random random = new Random();
         StringBuilder stringBuilder = new StringBuilder(base);
         for (int i = 0; i < length; i++) {
